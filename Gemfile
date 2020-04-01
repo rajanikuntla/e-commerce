@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'devise'
 gem "haml-rails", "~> 2.0"
+gem 'faker', '2.1.2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
+  #devise_for :users, controllers: { registrations: "registrations" }
   root 'application#home'
  # get '/users/sign_up', to: 'users#sign_up'
  # get '/users/sign_in', to: 'users#sign_in'
