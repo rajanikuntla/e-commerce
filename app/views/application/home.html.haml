@@ -11,3 +11,11 @@
   - else 
     %div
       = link_to "logout!", destroy_user_session_path, method: :delete
+
+
+%h1 All Products
+
+%ul
+  byebug
+  = render @products
+  <%= will_paginate @products %> 

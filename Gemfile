@@ -25,7 +25,11 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 gem "haml-rails", "~> 2.0"
 gem 'faker', '2.1.2'
+gem 'active_storage_validations', '0.8.2'
 
+
+gem 'will_paginate',      '3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
